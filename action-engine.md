@@ -12,7 +12,7 @@ Refactored the initial domain model from five separate task subclasses (`Single`
 
 ## #2 — Restructuring Architecture and Code Design Decision Records (ADRs & DRs)
 
-Reorganized and rewrote the project's `docs/` directory to separate current system documentation (`docs/architecture.md` and `docs/design.md`) from historical decision records (`docs/decisions/`).
+Reorganized and rewrote the project's `docs/` directory to separate final system documentation (`docs/architecture.md` and `docs/design.md`, to be written once the system is complete) from decision records (`docs/decisions/`).
 
 - Split decision records into two categories:
   - **Architecture Decision Records (`docs/decisions/architecture/`):**
