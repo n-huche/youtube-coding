@@ -1,8 +1,10 @@
 # Action Engine — YouTube Coding Log
 
-Repository: [`n-huche/action-engine`](https://github.com/n-huche/action-engine)
+Repository: [`n-huche/action-engine`](https://github.com/n-huche/action-engine) · Channel: [`@n-huche`](https://www.youtube.com/@n-huche)
 
 ## #1 — Refactoring Task Hierarchy into a Single Class with Pipeline API
+
+Video: [https://youtu.be/wxPHdPOo6Wo](https://youtu.be/wxPHdPOo6Wo)
 
 Refactored the initial domain model from five separate task subclasses (`Single`, `Recurring`, `Iterative`, `LongTerm`, `Maintenance`) and marker interfaces (`Linkable`, `Repeatable`) into a single `Task` class configured through a fluent pipeline API.
 
