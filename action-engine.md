@@ -31,3 +31,13 @@ Video: [https://youtu.be/iBBEVp0sqfc](https://youtu.be/iBBEVp0sqfc)
 - Wrote Code Design Decision Record DR-003: strong typing in method arguments, so invalid formats fail at compile time instead of throwing at runtime.
 - Switched doOn and doAt to LocalDate and LocalTime arguments, keeping the fluent builder-style method chaining.
 - Introduced a static factory method (Task.create()) as the way to create new tasks, and updated the JUnit 5 tests to the new API.
+
+## #4 — Factory Method Arguments, Stronger Typing & Test Cleanup
+
+Video: [https://youtu.be/cCPdVdFKt2A](https://youtu.be/cCPdVdFKt2A)
+
+- Wrote Code Design Decision Record DR-004: type and goal become arguments of the Task.create() factory method, and doUntil becomes mandatory for tasks with a cadence.
+- Applied DR-004 to Task and updated TaskTest to the new API.
+- Added MAINTENANCE to the TaskType enum.
+- Switched doUntil from String to LocalDate, following DR-003.
+- Refactored TaskTest to make it leaner.
